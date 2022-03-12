@@ -1,16 +1,33 @@
+<<<<<<< HEAD
 ﻿,id,created_at,text,author_id,tokens
 0,1.50E+18,2022-03-11T00:15:22.000Z,@b_m0rt @Amp_Trades @elkwood66 works him too hard,62562916,"['bmrt', 'amptrades', 'elkwood', 'work', 'him', 'too', 'hard']"
 1,1.50E+18,2022-03-10T15:36:48.000Z,https://t.co/tMpqKmqf0K,62562916,['httpstcotmpqkmqfk']
 2,1.50E+18,2022-03-09T14:11:50.000Z,"CEO of $DKNG tweet, maybe the FT $DIS has legs https://t.co/IpHgmxMHKB",62562916,"['ceo', 'of', 'dkng', 'tweet', 'maybe', 'the', 'ft', 'dis', 'ha', 'leg', 'httpstcoiphgmxmhkb']"
 3,1.50E+18,2022-03-08T13:31:34.000Z,"$DKNG
+=======
+,text,id,created_at,author_id,tokens
+0,@b_m0rt @Amp_Trades @elkwood66 works him too hard,1502075671970992133,2022-03-11T00:15:22.000Z,62562916,"['bmrt', 'amptrades', 'elkwood', 'work', 'him', 'too', 'hard']"
+1,https://t.co/tMpqKmqf0K,1501945171625213952,2022-03-10T15:36:48.000Z,62562916,['httpstcotmpqkmqfk']
+2,"CEO of $DKNG tweet, maybe the FT $DIS has legs https://t.co/IpHgmxMHKB",1501561401361543179,2022-03-09T14:11:50.000Z,62562916,"['ceo', 'of', 'dkng', 'tweet', 'maybe', 'the', 'ft', 'dis', 'ha', 'leg', 'httpstcoiphgmxmhkb']"
+3,"$DKNG
+>>>>>>> 80d584e8fd642d834b3c5132b5907d3b3e86bf52
 Disney plots sports betting push in bid to revitalise ESPN -
 Cable sports network considers striking licensing deals with bookmakers  
 
 Disney has a 6 percent stake in DraftKing $DKNG which would be the obvious target
 
+<<<<<<< HEAD
  https://t.co/IVGvkd4urb",62562916,"['dkngdisney', 'plot', 'sport', 'betting', 'push', 'in', 'bid', 'to', 'revitalise', 'espn', 'cable', 'sport', 'network', 'considers', 'striking', 'licensing', 'deal', 'with', 'bookmaker', 'disney', 'ha', 'a', 'percent', 'stake', 'in', 'draftking', 'dkng', 'which', 'would', 'be', 'the', 'obvious', 'target', 'httpstcoivgvkdurb']"
 4,1.50E+18,2022-03-07T01:50:40.000Z,"This puts it all in perspective.
 Although you left out the cryin' Bill theory https://t.co/qRj20vJBis",62562916,"['this', 'put', 'it', 'all', 'in', 'perspectivealthough', 'you', 'left', 'out', 'the', 'cryin', 'bill', 'theory', 'httpstcoqrjvjbis']"
 5,1.50E+18,2022-03-07T00:08:53.000Z,"Ryan Cohen, chairman on $GME takes a 9.9% stake in $BBBY
 
 https://t.co/4V7ObXqTmy",62562916,"['ryan', 'cohen', 'chairman', 'on', 'gme', 'take', 'a', 'stake', 'in', 'bbbyhttpstcovobxqtmy']"
+=======
+ https://t.co/IVGvkd4urb",1501188878404890629,2022-03-08T13:31:34.000Z,62562916,"['dkngdisney', 'plot', 'sport', 'betting', 'push', 'in', 'bid', 'to', 'revitalise', 'espn', 'cable', 'sport', 'network', 'considers', 'striking', 'licensing', 'deal', 'with', 'bookmaker', 'disney', 'ha', 'a', 'percent', 'stake', 'in', 'draftking', 'dkng', 'which', 'would', 'be', 'the', 'obvious', 'target', 'httpstcoivgvkdurb']"
+4,"This puts it all in perspective.
+Although you left out the cryin' Bill theory https://t.co/qRj20vJBis",1500650105103433728,2022-03-07T01:50:40.000Z,62562916,"['this', 'put', 'it', 'all', 'in', 'perspectivealthough', 'you', 'left', 'out', 'the', 'cryin', 'bill', 'theory', 'httpstcoqrjvjbis']"
+5,"Ryan Cohen, chairman on $GME takes a 9.9% stake in $BBBY
+
+https://t.co/4V7ObXqTmy",1500624491319332866,2022-03-07T00:08:53.000Z,62562916,"['ryan', 'cohen', 'chairman', 'on', 'gme', 'take', 'a', 'stake', 'in', 'bbbyhttpstcovobxqtmy']"
+>>>>>>> 80d584e8fd642d834b3c5132b5907d3b3e86bf52
