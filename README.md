@@ -13,6 +13,7 @@
 Joe keeps hearing the same advice on r/WSB: “Be like Warren Buffett and ‘BTFD’!” and “Buy when there’s blood on the streets!” After learning in Project #1 that he’ll never be able to afford a house, he’s decided to try his hand at making money in the markets. Instead on blindly picking a stock or buying the index, Joe wanted to use his financial tech skills to help him with where to look! After which Joe the average trader will run a technical breakdown of the the stock which is pulled from big boy trader accounts! Furthermore, Joe wants to use a model that will help him identify if the stock price will gho up or down. This way Joe can rely on more than his average advisor or articles recomending what he should invest in. 
 
 <br>
+
 ## Data Source
 Twitter API & Yahoo Finance.
 
