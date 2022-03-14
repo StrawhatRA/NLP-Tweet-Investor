@@ -18,7 +18,7 @@ Joe keeps hearing the same advice on r/WSB: “Be like Warren Buffett and ‘BTF
 <br>
 
 
-![Twitter bird.](readme_Images/fat-twitter.png)
+![Twitter bird](readme_Images/fat-twitter.png)
 
 
 <br>
