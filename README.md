@@ -1,7 +1,7 @@
 # **Project 2: Investing in Beaten Down Stock**
 
 
-<p align="center" width="50%">
+<p align="center" width="40%">
     <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
@@ -43,6 +43,9 @@ Joe chooses to build a classification model to know whether the stock's price wi
 (this next  part we can add to a Conclusions section of the readme maybe along with your conclusions)
 Unfortunately the classification model only yield a 53% accuracy not making very reliable. Joe needs to take a better look at his feature selection and engineering and probably use more data to better train his model.
 
+<p align="center" width="50%">
+    <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/Decision%20Tree.PNG"> 
+</p>
 
 
 ## **Conclusion**
