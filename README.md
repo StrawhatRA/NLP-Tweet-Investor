@@ -26,7 +26,7 @@ This project requires the pandas, ,tweepy, hvplot, matplotlib, nltk & yfinance l
 
 
 <p align="center" width="30%">
-    <img width="100%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
+    <img width="30%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
 <br>
