@@ -14,6 +14,10 @@ Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett
 
 <br>
 
+## **Joe's approach**
+Joe wanted up to date fresh news to find what stocks are being most talked about negatively. Unfortunately, Joe finds traditional media too unreliable! Instead, Joe decided to use Twitter. Thinking the info would arrive much quicker than news articles! Giving him some sort of edge over the "average Joe". Joe strictly means business and so he decided to look through the tweets of some big name traders only. Having fresh tweets by traders on what stocks they were talking about, Joe started his NLP analysis and narrow down a list of "beaten" stocks. Then he used technical analys and a self made decision tree to further identify if the stock will bounce back and make him money!  
+
+
 ## Process 
 
 1) First Joe has to find a nice and bloody stock! pulling from the Twitter API a data frame of the tweets with tickers is created with their sentiment
@@ -28,18 +32,18 @@ Twitter API & Yahoo Finance.
 
 This project requires the following libraries: pandas, numpy ,tweepy, hvplot, graphviz, matplotlib, nltk, sklearn & yfinance.
 
-<br>
 
-
-
-<p align="center" width="30%">
-    <img width="30%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
+<p align="center" width="40%">
+    <img width="40%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
-<br>
 
-## **Joe's approach**
-Joe wanted up to date fresh news to find what stocks are being most talked about negatively. Unfortunately, Joe finds traditional media too unreliable! Instead, Joe decided to use Twitter. Thinking the info would arrive much quicker than news articles! Giving him some sort of edge over the "average Joe". Joe strictly means business and so he decided to look through the tweets of some big name traders only. Having fresh tweets by traders on what stocks they were talking about, Joe started his NLP analysis and narrow down a list of "beaten" stocks. Then he used technical analys and a self made decision tree to further identify if the stock will bounce back and make him money!  
+
+## Decision Tree Model 
+Joe chooses to build a classification model to know whether the stock's price will go up or down during the next trading session in order to compliment it's 'buying the dip' strategy and make an optimal trading decision. Joe uses  7 years worth of historical pricing and volume data to build technical indicator features and train his model. He also uses PCA method to reduce the dimensionality of his features in an effort to improve the model's effectiveness.
+(this next  part we can add to a Conclusions section of the readme maybe along with your conclusions)
+Unfortunately the classification model only yield a 53% accuracy not making very reliable. Joe needs to take a better look at his feature selection and engineering and probably use more data to better train his model.
+
 
 
 ## **Conclusion**
