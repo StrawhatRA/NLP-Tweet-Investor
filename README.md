@@ -1,4 +1,4 @@
-# **Project 2: 2 The Moon Investing in Beat Down Stock**
+# **Project 2: 2-The-Moon Investing in Beaten Down Stock**
 
 
 
