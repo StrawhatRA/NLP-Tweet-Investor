@@ -41,7 +41,8 @@ We utilized tthe Twitter API and Yahoo Finance.
 This project required the following libraries: pandas, numpy ,tweepy, hvplot, graphviz, matplotlib, nltk, sklearn & yfinance.
 
 ## Twitter API
-Joe
+Joe, being average all around, has no idea where to look for a bargain outside of the cookies isle! Wallstreet looks quite scary when you live with your mom. Joe beleives the news is too slow to give him an edge. Instead, Joe uses Twitter to find what is being said about the markets. He figues he doesnt want to look where the average Joe does so instead he looks for top trader tweets to help him make sense of it all. Going on a search through twitter, Joe found a handful of the most followed and active traders. From there he collected their tweets and used the NLTK library to derive the sentiments of the tweets and let their sentiment determine where he should look for a value investment opportunity! He seemed pretty happy about not having to filter through all those tweets about Pasta..hes put on a few since the holidays..
+
 
 ## Technical Analysis
 Joe pulls 5 years of data of **$OLLI** and **$SPY**. He then plots the closing prices and the 21, 50, and 200 EMAs. He builds a dataframe comparing the current price vs. the three EMAs, standardizes the deltas, and looks for anomolies. He uses a 1.5 std.dev equivalent (or 13th percentile) to find the extreme outliers of %moves away from the EMAS. From here, he can see that the range of price moves away from the 21EMA.
