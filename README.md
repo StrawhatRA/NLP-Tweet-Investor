@@ -41,7 +41,9 @@ We utilized tthe Twitter API and Yahoo Finance.
 This project required the following libraries: pandas, numpy ,tweepy, hvplot, graphviz, matplotlib, nltk, sklearn & yfinance.
 
 ## Twitter API
-Joe, being average all around, has no idea where to look for a bargain outside of the cookie aisle! Wall Street looks quite scary when you live with your mom. Joe believes the news is too slow to give him an edge. Instead, Joe uses Twitter to find what is being said about the markets. He figures he doesn't want to look where the average Joe does so instead he looks for top trader tweets to help him make sense of it all. Going on a search through twitter, Joe found a handful of the most followed and active traders. From there he collected their tweets and used the NLTK library to derive the sentiments of the tweets and let their sentiment determine where he should look for a value investment opportunity! He seemed pretty happy about not having to filter through all those tweets about Pasta..he's put on a few since the holidays..
+Joe is nervous about choosing the right stocks to buy (afterall, Wall Street looks scary when you live with your mom!) The only thing Joe is sure of is that the traditional news outlets are too slow to give him an edge. Instead, Joe uses Twitter to find out what's going on in the markets. He seeks the advice and chatter of top traders to help him make sense of it all. After curating a handful of the most trusted and popular active traders, he builds a collection of their tweets and uses the NLTK library to derive their sentiments. For Joe's 'Buy-the-Dip' strategy, ultra negative sentiment represents a valued investment opportunity! Filtering through the data using NLTK is a much better use of his time (even if he did appreciate all the pictures of food!) 
+
+Success! He's found a stock with negative sentiment: **$OLLI**
 
 
 ## Technical Analysis
