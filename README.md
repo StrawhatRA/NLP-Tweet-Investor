@@ -14,6 +14,13 @@ Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett
 
 <br>
 
+## Process 
+
+1) First Joe has to find a nice and bloody stock! pulling from the Twitter API a data frame of the tweets with tickers is created with their sentiment
+2) TA analysis of what the charts say 
+3) What does the decision tree model say about this stock pick? does it look like its moving up or down?  
+
+
 ## Data Source
 Twitter API & Yahoo Finance.
 
