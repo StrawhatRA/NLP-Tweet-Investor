@@ -1,4 +1,4 @@
-# **Project 2: 2 The Moon Investing in Beat Down Stock**
+# **Project 2: 2-The-Moon Investing in Beaten Down Stock**
 
 
 
@@ -25,8 +25,8 @@ This project requires the following libraries: pandas, numpy ,tweepy, hvplot, gr
 
 
 
-<p align="center" width="100%">
-    <img width="100%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/tree/main/readme%20Images/to/fat-twitter.png"> 
+<p align="center" width="30%">
+    <img width="30%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
 <br>
@@ -36,4 +36,4 @@ Joe wanted up to date fresh news to find what stocks are being most talked about
 
 
 ## **Conclusion**
-Joe was able to identify a few 'beat down' stocks from Twitter based on sentiment analysis. OLLI was considered the best option available among them. Joe has ran the stock pick through his checks and both the TA analysis & decision tree model give him the green light on investing! Unfortunately, his Decision Tree model needs some fine tuning as it was not great at predicting daily returns. 
+
