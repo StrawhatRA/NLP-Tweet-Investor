@@ -1,8 +1,8 @@
 # **Project 2: Investing in Beaten Down Stock**
 
 
-<p align="center" width="80%">
-    <img width="80%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
+<p align="center" width="50%">
+    <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
 
