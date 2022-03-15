@@ -37,6 +37,3 @@ Joe wanted up to date fresh news to find what stocks are being most talked about
 
 ## **Conclusion**
 Joe was able to identify a few 'beat down' stocks from Twitter based on sentiment analysis. OLLI was considered the best option available among them. Joe has ran the stock pick through his checks and both the TA analysis & decision tree model give him the green light on investing! Unfortunately, his Decision Tree model needs some fine tuning as it was not great at predicting daily returns. 
-=======
-Joe was able to idenify the top 5 most beat down stocks from twitter. OLLI was evaluated as the best option availabe. Joe has ran the stock pick through his checks and both the TA analysis & decision tree model give him the green  light on invesrting! All Joe has to do now is sit on his hands and hopefully in six months Joe will have more money towards buying a home! (hes still sour from the first project) 
-
