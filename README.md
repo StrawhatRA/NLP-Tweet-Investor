@@ -28,9 +28,9 @@ Joe's on the prowl for hot-of-the-press bearish news of pummeled stocks. Unfortu
 
 ## Process 
 
-1) First, Joe needs to find a nice and bloody stock! He'll utilize the Twitter API to create a custom dataframe of tweets containing negative sentiment. 
-2) Next, Joe will perform Technical Analysis and compare the stock price vs. the 21/50/200 EMAs. He'll look for extreme outliers, generate signals, then compare the general perfomance of the signals 1 month after relative to SPY. 
-3) Lastly, what does the decision tree model say about this stock? Will the model forecast the next trading session to move up or down?  
+1) [NLP Analysis](https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/tree/main/Step1_NLP) : First, Joe needs to find a nice and bloody stock! He'll utilize the Twitter API to create a custom dataframe of tweets containing negative sentiment. 
+2) [Technical Analysis](https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/tree/main/Step2_TA) : Next, Joe will perform Technical Analysis and compare the stock price vs. the 21/50/200 EMAs. He'll look for extreme outliers, generate signals, then compare the general perfomance of the signals 1 month after relative to SPY. 
+3) [Decision Tree Mode;](https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/tree/main/Step3_Decision%20Tree%20Model) : Lastly, what does the decision tree model say about this stock? Will the model forecast the next trading session to move up or down?  
 
 
 ## Data Source
