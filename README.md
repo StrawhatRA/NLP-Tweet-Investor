@@ -17,7 +17,7 @@
 
 ## Introduction: Reintroducing Joe, who tries day trading
 
-<p align="center" width="50%">
+<p align="left" width="50%">
     <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
 </p>
 
