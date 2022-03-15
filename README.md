@@ -1,8 +1,8 @@
 # **Project 2: Investing in Beaten Down Stock**
 
 
-<p align="center" width="80%">
-    <img width="80%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
+<p align="center" width="50%">
+    <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
 
@@ -16,7 +16,7 @@
 ## **Using Fintech tools to identify Stock Investment Opportunities**
 
 ## Introduction: Joe tries day trading
-Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett, and ‘BTFD’!” and “Buy when there’s blood on the streets!” After learning in Project #1 that he’ll never be able to afford a house doing passive investments he’s decided to try his hand at making money in speculative trading! Joe wanted to use his newly acquired fintech skills to help him with where to look for cheap stocks! Joe will use NLP to analyze sentiment and narrow down a list of candidate stocks. After which Joe will run a technical analysis of the the stock and lastly Joe wants to use a classification model that will help him predict if the stock price will go up or down the next day. This way Joe can rely on various techy tools instead of only relying on gossip or news articles recomending what he should invest in. 
+Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett, and ‘BTFD’!” and “Buy when there’s blood on the streets!” After learning in Project [#1](https://github.com/JakeKJShin/Project_1_Team_2) that he’ll never be able to afford a house doing passive investments he’s decided to try his hand at making money in speculative trading! Joe wanted to use his newly acquired fintech skills to help him with where to look for cheap stocks! Joe will use NLP to analyze sentiment and narrow down a list of candidate stocks. After which Joe will run a technical analysis of the the stock and lastly Joe wants to use a classification model that will help him predict if the stock price will go up or down the next day. This way Joe can rely on various techy tools instead of only relying on gossip or news articles recomending what he should invest in. 
 
 
 ## **Joe's approach**
