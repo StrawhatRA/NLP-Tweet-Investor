@@ -2,7 +2,7 @@
 
 
 <p align="center" width="35%">
-    <img width="600%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
+    <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/fat-twitter.png"> 
 </p>
 
 
@@ -17,8 +17,8 @@
 
 ## Introduction: Reintroducing Joe, who tries day trading
 
-<p align="left" width="90%">
-    <img width="90%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
+<p align="left" width="900%">
+    <img width="900%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
 </p>
 
 Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett, and ‘BTFD’!” and “Buy when there’s blood on the streets!” After learning in Project [#1](https://github.com/JakeKJShin/Project_1_Team_2) that he’ll never be able to afford a house doing passive investments he’s decided to try his hand at making money in speculative trading! Joe wanted to use his newly acquired fintech skills to help him with where to look for cheap stocks! Joe will use NLP to analyze sentiment and narrow down a list of candidate stocks. After which Joe will run a technical analysis of the the stock and lastly Joe wants to use a classification model that will help him predict if the stock price will go up or down the next day. This way Joe can rely on various techy tools instead of only relying on gossip or news articles recomending what he should invest in. 
