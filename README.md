@@ -1,4 +1,5 @@
-# **Project 2: Investing in Beaten Down Stock**
+# **Project 2: Investing in BTFD!**
+## When's the best time to buy that beaten down stock?
 
 
 <p align="center" width="35%">
@@ -13,40 +14,50 @@
 <br>
 
 
-## **Using Fintech tools to identify Stock Investment Opportunities**
-
-## Introduction: Reintroducing Joe, who tries day trading
-
-<p align="left" width="50%">
-    <img width="50%" src="https://github.com/JakeKJShin/Project_1_Team_2/blob/ray_draft/readme%20Images/Average_Joe.PNG"> 
+# **Using Fintech tools to identify Stock Investment Opportunities**
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/Average_Joe.png"> 
+</p>
+Poor Trader Joe. After learning in <a href="https://github.com/JakeKJShin/Project_1_Team_2">Project #1</a> that he’ll never be able to afford a house by solely completing passive investments, he’s decided to try his hand in speculative trading! Joe is looking to buy when there's 'blood in the streets'by using Natural Language Processing (NLP's) to analyze sentiment and narrow down a list of candidate stocks. Then, Joe will run technical analysis to see if there are anomolies or outlier deviations from moving averages. Lastly, if the potential stock passes both of these filters, Joe will utilize a classification model to help him predict if the stock will go up or down the next day. By using this 'goldilocks' approach as a pre-trade checklist, Joe takes control of his destiny instead of relying on blind recommendatioon from gossip or news articles!
 </p>
 
-Joe keeps hearing the same advice on r/WSB: “You should be like Warren Buffett, and ‘BTFD’!” and “Buy when there’s blood on the streets!” After learning in [Project #1](https://github.com/JakeKJShin/Project_1_Team_2) that he’ll never be able to afford a house doing passive investments he’s decided to try his hand at making money in speculative trading! Joe wanted to use his newly acquired fintech skills to help him with where to look for cheap stocks! Joe will use NLP to analyze sentiment and narrow down a list of candidate stocks. After which Joe will run a technical analysis of the the stock and lastly Joe wants to use a classification model that will help him predict if the stock price will go up or down the next day. This way Joe can rely on various techy tools instead of only relying on gossip or news articles recomending what he should invest in. 
+## Joe's Approach
 
-
-## **Joe's approach**
-Joe wanted up to date fresh news to find what stocks are being most talked about negatively. Unfortunately, Joe finds traditional media too unreliable! Instead, Joe decided to use Twitter. Thinking the info would arrive much quicker than news articles! Giving him some sort of edge over the "average Joe". Joe strictly means business and so he decided to look through the tweets of some big name traders only. Having fresh tweets by traders on what stocks they were talking about, Joe started his NLP analysis and narrow down a list of "beaten" stocks. Then he used technical analys and a self made decision tree to further identify if the stock will bounce back and make him money!  
+Joe's on the prowl for hot-of-the-press bearish news of pummeled stocks. Unfortunately, Joe finds traditional media too unreliable and always late to the party! Instead, Joe turns to Twitter. Reasoning that any new info would arrive much quicker than average news articles, Joe decides to look through the tweets of some big name traders. Joe builds a list of traders he respects, then begins his NLP analysis to narrow down a list of "beaten down" stocks. Once he narrows the list, he'll use technical analys and a custom decision tree to further identify potential performance of the stock. Maybe this way he'll be able to post his 'gainz' on r/WSB! 
 
 
 ## Process 
 
-1) First Joe has to find a nice and bloody stock! pulling from the Twitter API a data frame of the tweets with tickers is created with their sentiment
-2) TA analysis of what the charts say 
-3) What does the decision tree model say about this stock pick? does it look like its moving up or down?  
+1) First, Joe needs to find a nice and bloody stock! He'll utilize the Twitter API to create a custom dataframe of tweets containing negative sentiment. 
+2) Next, Joe will perform Technical Analysis and compare the stock price vs. the 21/50/200 EMAs. He'll look for extreme outliers, generate signals, then compare the general perfomance of the signals 1 month after relative to SPY. 
+3) Lastly, what does the decision tree model say about this stock? Will the model forecast the next trading session to move up or down?  
 
 
 ## Data Source
-Twitter API & Yahoo Finance.
+We utilized tthe Twitter API and Yahoo Finance.
 
 ## Libraries
 
-This project requires the following libraries: pandas, numpy ,tweepy, hvplot, graphviz, matplotlib, nltk, sklearn & yfinance.
+This project required the following libraries: pandas, numpy ,tweepy, hvplot, graphviz, matplotlib, nltk, sklearn & yfinance.
 
+## Twitter API
+Joe
+
+## Technical Analysis
+Joe pulls 5 years of data of **$OLLI** and **$SPY**. He then plots the closing prices and the 21, 50, and 200 EMAs. He builds a dataframe comparing the current price vs. the three EMAs, standardizes the deltas, and looks for anomolies. He uses a 1.5 std.dev equivalent (or 13th percentile) to find the extreme outliers of %moves away from the EMAS. From here, he can see that the range of price moves away from the 21EMA.
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/ticker_21_range.png"> 
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/occurrence.png"> 
+</p>
+
+He builds a dataframe, initiates a signal, then plots his findings.
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/ema_signals_plot.png"> 
+</p>
 
 ## Decision Tree Model 
-Joe chooses to build a classification model to know whether the stock's price will go up or down during the next trading session in order to compliment it's 'buying the dip' strategy and make an optimal trading decision. Joe uses  7 years worth of historical pricing and volume data to build technical indicator features and train his model. He also uses PCA method to reduce the dimensionality of his features in an effort to improve the model's effectiveness.
-(this next  part we can add to a Conclusions section of the readme maybe along with your conclusions)
-Unfortunately the classification model only yield a 53% accuracy not making very reliable. Joe needs to take a better look at his feature selection and engineering and probably use more data to better train his model.
+Joe chose to build a classification model to help him determine if the stock's price will go up or down during the next trading session. Joe uses 7 years of historical pricing and volume data to build technical indicator features and train his model. He then uses a PCA method to reduce the dimensionality of his features in an effort to improve the model's effectiveness
 
 <p align="center" width="50%">
     <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/Decision%20Tree.PNG"> 
@@ -55,3 +66,4 @@ Unfortunately the classification model only yield a 53% accuracy not making very
 
 ## **Conclusion**
 Joe was able to identify a few 'beat down' stocks from Twitter based on sentiment analysis. OLLI was considered the best option available among them. Joe has ran the stock pick through his checks and both the TA analysis & decision tree model give him the green light on investing! Unfortunately, his Decision Tree model needs some fine tuning as it was not great at predicting daily returns. 
+Unfortunately the classification model only yield a 53% accuracy not making very reliable. Joe needs to take a better look at his feature selection and engineering and probably use more data to better train his model.
