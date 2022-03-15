@@ -55,9 +55,17 @@ He builds a dataframe, initiates a signal, then plots his findings.
 <p align="center" width="50%">
     <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/ema_signals_plot.png"> 
 </p>
-
+In order to backtest the performance of his signal, Joe plots the average returns of his stock 1 trading month after the signal. Is the price higher or lower? How about %return relative to the SPY?
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/21signal_performance.png"> 
+    </p>
+Lastly, Joe wants to try his hand at linear regression. He's looking to see if there are any correlations between the "%away from the 21EMA" compared to the average return of the stock 20 days later. Unfortunatley, the r-squared value is incredibly low, and therefore his model is unreliable!
+<p align="center" width="50%">
+    <img width="75%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/21EMA.png"> 
+    </p>
+    
 ## Decision Tree Model 
-Joe chose to build a classification model to help him determine if the stock's price will go up or down during the next trading session. Joe uses 7 years of historical pricing and volume data to build technical indicator features and train his model. He then uses a PCA method to reduce the dimensionality of his features in an effort to improve the model's effectiveness
+Joe chooses to build a classification model to help him determine if the stock's price will go up or down during the next trading session. Joe uses 7 years of historical pricing and volume data to build technical indicator features and train his model. He then uses a PCA method to reduce the dimensionality of his features in an effort to improve the model's effectiveness
 
 <p align="center" width="50%">
     <img width="50%" src="https://github.com/JakeKJShin/2_The_Moon_Investing_Beat_Down_Stock/blob/main/readme%20Images/Decision%20Tree.PNG"> 
@@ -65,5 +73,4 @@ Joe chose to build a classification model to help him determine if the stock's p
 
 
 ## **Conclusion**
-Joe was able to identify a few 'beat down' stocks from Twitter based on sentiment analysis. OLLI was considered the best option available among them. Joe has ran the stock pick through his checks and both the TA analysis & decision tree model give him the green light on investing! Unfortunately, his Decision Tree model needs some fine tuning as it was not great at predicting daily returns. 
-Unfortunately the classification model only yield a 53% accuracy not making very reliable. Joe needs to take a better look at his feature selection and engineering and probably use more data to better train his model.
+Joe was able to identify a few 'beat down' stocks from Twitter based on sentiment analysis. OLLI was considered the best option avaiilable (because it was the worst!), so Joe ran his pre-trade checklist BTFD system. His NLP analysis found the stock, then his TA analysis measured some EMA vs. price anomolies, and finally his decision tree model provided the green light to investing! As for the accuracy of his system, although his TA analysis gave relatively good returns, unfortunately his Decision Tree model needs fine tuning. The classification model only yielded a 53% accuracy, proving it's not very reliable. Joe needs to take a better look at his feature selection, engineering, and probably use more data to better train his model. You live you learn (and hopefully earn along the way!)
